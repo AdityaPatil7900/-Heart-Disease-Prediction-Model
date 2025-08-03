@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction using Machine Learning
 
-![Project Banner](Images/banner.png) <!-- Replace with actual screenshot path -->
+![Project Banner]("C:\Users\ameet\OneDrive\Pictures\Screenshots\Screenshot 2025-08-03 102616.png")
 
 ---
 
