@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction using Machine Learning
 
-![Project Banner](Screenshot%2025-08-03%20105520.png)
+![Project Banner](Images/Screenshot%202025-08-03%20105520.png)
 
 
 ---
