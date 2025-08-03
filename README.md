@@ -1,57 +1,76 @@
 # ❤️ Heart Disease Prediction using Machine Learning
 
-![Project Banner](Images/Screenshot%202025-08-03%20105520.png)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)   
 
-
----
-
-## 📌 Overview
-This project predicts the likelihood of heart disease based on patient health parameters using **Machine Learning (Logistic Regression)**.  
-It provides an **interactive Streamlit web app** for real‑time predictions.
+> 🩺 A machine learning-based web application that predicts the likelihood of heart disease based on patient health parameters. Built with Streamlit for a clean and interactive UI, ideal for healthcare demo projects and portfolios.
 
 ---
 
-## 🧠 Features
-- Predicts **heart disease risk** using key health indicators.
-- Built with **Python, Scikit‑Learn, and Streamlit**.
-- Trained on the **Kaggle Heart Disease Dataset**.
-- User‑friendly interface for real‑time medical predictions.
-- Achieved **~85% accuracy** after hyperparameter tuning.
+## ✨ Features
+- 📊 Predicts heart disease risk using medical attributes (age, cholesterol, blood pressure, etc.)
+- ⚡ Real-time prediction with user-friendly web interface
+- 🔢 Preprocessing with **StandardScaler** for accurate results
+- 🧠 Trained with multiple ML algorithms; optimized model used for deployment
+- 📈 Visualizes insights from training dataset
 
 ---
 
-## 📂 Project Structure
-Heart-Disease-Prediction/
-│-- app.py # Streamlit app
-│-- heart_model.pkl # Trained ML model
-│-- scaler.pkl # Scaler for preprocessing
-│-- dataset.csv # Dataset used for training
-│-- requirements.txt # Dependencies
-│-- README.md # Project documentation
-│-- Images/
-│ └── screenshot.png # App screenshot
----
-
-## 🖼 Screenshots
-
-### Web App Interface
-![App Screenshot](Images/Screenshot%202025-08-03%20102616.png)  
-*Interactive prediction form for heart disease risk.*
+## 🧠 How It Works
+1. User inputs **medical data** (age, sex, cholesterol, etc.) through UI.  
+2. Data is **scaled using pre-trained scaler** for consistency.  
+3. **Trained ML model (Logistic Regression / RandomForest)** predicts probability of heart disease.  
+4. Displays **risk prediction** in a clear, user-friendly result card.
 
 ---
 
-## 🛠 Tech Stack
-- **Python 3.11+**
-- **Pandas, NumPy**
-- **Scikit‑Learn**
-- **Streamlit**
-- **Joblib**
+## 🛠️ Tech Stack
+| Technology | Role |
+|------------|------|
+| Python | Programming Language |
+| Streamlit | Web App Framework |
+| Scikit-Learn | Machine Learning Model |
+| Pandas/Numpy | Data Preprocessing |
+| Matplotlib/Seaborn | Data Visualization |
 
 ---
 
-## 🚀 How to Run Locally
+## 📸 Screenshots
+| Input Form | Prediction Result |
+|------------|-------------------|
+| ![form](Images/Screenshot%202025-08-03%20102616.png) | ![result](Images/Screenshot%202025-08-03%20102652.png) |
 
-1. Clone the repository:
+---
+## 📁 Project Structure
+```
+│
+├── app.py               # Streamlit application
+├── heart_model.pkl      # Trained ML model
+├── scaler.pkl           # Scaler for preprocessing
+├── dataset.csv          # Dataset used for training
+├── requirements.txt     # Dependencies
+├── README.md            # Project documentation
+└── Images/
+    └── screenshot.png   # App screenshot
+```
+--- 
+
+## 🚀 Getting Started
+
+### 🔧 Installation
 ```bash
-git clone https://github.com/yourusername/heart-disease-prediction.git
-cd heart-disease-prediction
+# Clone the repository
+git clone https://github.com/AdityaPatil7900/Heart-Disease-Prediction.git
+cd Heart-Disease-Prediction
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit application
+streamlit run app.py
+```
+---
+## 👤 Author
+**[Aditya Patil]**  
+🔗 [LinkedIn](https://www.linkedin.com/in/aditya-patil-aj7900/)<br> 
+
+---
