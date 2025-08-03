@@ -1,6 +1,6 @@
 # ❤️ Heart Disease Prediction using Machine Learning
 
-![Project Banner](Images/Screenshot%202025-08-03%20102616.png)Screenshot%2025-08-03%20105520.png 
+![Project Banner](Images/Screenshot%2025-08-03%20105520.png)
 
 
 ---
@@ -35,7 +35,7 @@ Heart-Disease-Prediction/
 ## 🖼 Screenshots
 
 ### Web App Interface
-![App Screenshot](Screenshot%202025-08-03%20102616.pngScreenshot%202025-08-03%20102616.png)  
+![App Screenshot](Screenshot%202025-08-03%20102616.png)  
 *Interactive prediction form for heart disease risk.*
 
 ---
